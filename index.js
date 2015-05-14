@@ -73,3 +73,21 @@ b6.addEventListener("click", function(){
   //Show the next slide
   document.getElementById("slide-6").style.display = "block";
 });
+
+
+//Slide 6 reasoning
+b5.addEventListener("click", function(){
+  //Hide this slide
+  document.getElementById("slide-6").style.display = "none";
+  //Show the next slide
+  document.getElementById("slide-3").style.display = "block";
+  //Show the name in the final message
+  o2.innerHTML = "You've made the right choice for our community and our planet, " + name + "!"
+});
+
+b6.addEventListener("click", function(){
+  //Hide this slide
+  document.getElementById("slide-6").style.display = "none";
+  //Show the next slide
+  document.getElementById("slide-6").style.display = "block";
+});
